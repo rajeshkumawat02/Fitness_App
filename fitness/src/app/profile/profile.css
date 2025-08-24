@@ -1,0 +1,125 @@
+.profile-container {
+min-height: 100vh;
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+padding: 2rem 0;
+}
+
+.profile-header {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.profile-header h1 {
+color: white;
+font-size: 2.5rem;
+font-weight: bold;
+text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.profile-content {
+max-width: 800px;
+margin: 0 auto;
+padding: 0 1rem;
+}
+
+.profile-section {
+background: white;
+border-radius: 15px;
+padding: 2rem;
+margin-bottom: 2rem;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+}
+
+.profile-section h2 {
+color: #333;
+font-size: 1.5rem;
+font-weight: 600;
+margin-bottom: 1.5rem;
+border-bottom: 2px solid #ffc20e;
+padding-bottom: 0.5rem;
+}
+
+.form-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 1.5rem;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+}
+
+.form-group label {
+color: #555;
+font-weight: 600;
+margin-bottom: 0.5rem;
+font-size: 0.9rem;
+}
+
+.form-input {
+padding: 0.75rem;
+border: 2px solid #e0e0e0;
+border-radius: 8px;
+font-size: 1rem;
+transition: all 0.3s ease;
+background-color: #fafafa;
+}
+
+.form-input:focus {
+outline: none;
+border-color: #ffc20e;
+background-color: white;
+box-shadow: 0 0 0 3px rgba(255, 194, 14, 0.1);
+}
+
+.form-input:hover {
+border-color: #ffc20e;
+}
+
+select.form-input {
+cursor: pointer;
+}
+
+.button-group {
+display: flex;
+gap: 1rem;
+flex-wrap: wrap;
+}
+
+.btn-primary {
+background: linear-gradient(135deg, #ffc20e, #ff8c00);
+color: white;
+border: none;
+padding: 0.75rem 2rem;
+border-radius: 25px;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 4px 15px rgba(255, 194, 14, 0.3);
+}
+
+.btn-primary:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 20px rgba(255, 194, 14, 0.4);
+}
+
+.btn-secondary {
+background: #ccc;
+color: #333;
+border: none;
+padding: 0.75rem 2rem;
+border-radius: 25px;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary:hover {
+background: #bbb;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
